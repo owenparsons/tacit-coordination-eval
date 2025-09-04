@@ -104,7 +104,7 @@ class CoordinationGame:
 
         # Setup logging file
         now = datetime.now().strftime("%Y%m%d_%H%M%S")
-        self.log_filename = f"game_log_{now}.json"
+        self.log_filename = f"run_logs/game_log_{now}.json"
 
         # Initial metadata
         self.metadata = {
