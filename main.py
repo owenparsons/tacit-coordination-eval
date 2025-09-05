@@ -126,6 +126,8 @@ class CoordinationGame:
             "Provide your reasoning if you want, but at the end of your response "
             "you MUST output your chosen number in the format:\n<answer>X</answer>\n"
             f"where X is a single integer between 0 and {self.k}."
+            "You will be able to see the history of guesses of other agents, but you will not be able to communicate with them."
+            "The other agents will also be able to see your history of guesses."
         )
         if not self.history:
             return base_rules + "\nThis is the first round."
